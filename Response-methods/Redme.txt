@@ -1,0 +1,14 @@
+Types of Response Methods
+
+1. res.send()    =>    Text, HTML, Object, Array, Buffers
+2. res.json()    =>    JSON(Javascript Object Notation)
+3. res.jsonp()   =>    JSONP(JSON with padding)
+4. res.redirect()
+5. res.render()  =>    Open HTML File using a template engine
+6. res.download()  =>  PDF, Image, File, Music, Video, Excel etc...
+7. res.sendFile()
+8. res.end()
+9. res.sendStatus()
+10. res.headerSent()
+11. res.set()
+12. res.get()
