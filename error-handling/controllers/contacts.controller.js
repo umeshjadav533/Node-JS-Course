@@ -68,7 +68,7 @@ const updateContact = async (req, res) => {
 
 const deleteContact = async (req, res) => {
     try {
-        const singleContact = await contact.findByIdAndUpdate(req.params.id, req.body);
+        const singleContact = await contact.findByIdAndDelete(req.params.id);
         if (!singleContact) return res.render('404', { message: "Contact nnot found" })
         res.redirect('/');
     } catch (error) {
